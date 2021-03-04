@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+fieldset {
+  margin: auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 45%;
+}
+
+.projectsContainer {
+  width: 50%;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.project {
+  margin-top: 25px;
+  border: solid gray 1px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.nav {
+  list-style-type: none;
+  margin-bottom: 15px;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* .nav li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.nav li a.active {
+  color: white;
+  background-color: #4caf50;
+} */
+
+.clientsContainer {
+  width: 40%;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.clientList {
+  min-height: 35px;
+  margin-top: 25px;
+  border: solid gray 1px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #4caf50;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.clientList a:hover {
+  background-color: #4caf50;
+  border-radius: 5px;
+}
+
+.single-client-container {
+  width: 40%;
+  margin: auto;
+  margin-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 5px;
+  text-align: center;
+  border: solid gray 1px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.single-client-container li {
+  text-align: left;
+  margin-left: 40%;
+}
+
+.update-container {
+  width: 100%;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.remove-button button {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}

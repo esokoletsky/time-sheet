@@ -1,0 +1,26 @@
+{
+  "name": "timesheet-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/main.js",
+    "client": "cd client && cd my-app && npm start",
+    "start": "concurrently \"npm run dev\" \"npm run client\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "concurrently": "^6.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "pg-client": "0.0.5",
+    "react-router-dom": "^5.2.0",
+    "sequelize": "^6.5.0",
+    "volleyball": "^1.5.1"
+  }
+}
